@@ -251,7 +251,7 @@
   formInputs.forEach(input => {
     input.addEventListener('click', () => {
       if (!audioLoaded) {
-        const audio = new Audio("https://github.com/RolandyCorrea/FelizDiaDelPadre/blob/7d07f181612829c7deffb22bdc56523d650e7111/buentipomiviejo.mp3");
+        const audio = new Audio("buentipomiviejo.mp3");
         audio.play().catch(err => {
           console.log("El navegador bloqueó el audio:", err);
         });
